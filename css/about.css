@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+/* font-family: 'Noto Sans', sans-serif; */
+
+.about {
+  font-family: "Noto Sans", sans-serif;
+  margin: 15% auto;
+}
+.about-title {
+  font-weight: 600;
+  margin-left: 12%;
+  color: #000000;
+}
+hr {
+  max-width: 70%;
+  font-size: 70px;
+  margin-left: 12%;
+}
+.about .container {
+  margin-top: 60px;
+}
+.about-text {
+  margin-left: 5%;
+  font-size: 20px;
+  max-width: 40%;
+  color: #00000094;
+}
+.about-pic {
+  margin-top: -10px;
+  border-radius: 50%;
+  width: 300px;
+  border: 8px solid #ffbc02;
+}
+
+.skills {
+  margin-top: 60px;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-weight: 600;
+  color: #000000;
+}
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.skills-list {
+  margin-left: 30px;
+}
+.skills-list li {
+  list-style: none;
+  margin-top: 20px;
+}
+.devicon-cplusplus-plain-wordmark {
+  color: #5b00ec;
+}
+.skills-list li i {
+  font-size: 70px;
+}
+
+/* ! Media queries */
+
+@media (max-width: 400px) {
+  .about-text {
+    max-width: 92%;
+    margin-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .about .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .about-pic {
+    margin-left: 5%;
+  }
+  .skills-list li i {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+  .about-text {
+    justify-content: center;
+    max-width: 92%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+  .about .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .skills-list li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .skills-list li i {
+    font-size: 60px;
+  }
+}

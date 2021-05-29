@@ -1,78 +1,109 @@
-ScrollReveal().reveal(".navbar-brand,.nav-link,.resume-btn",{
+// ! Navbar
+
+ScrollReveal().reveal(".navbar-brand",{
+    duration: 2000,
+});
+ScrollReveal().reveal(".nav-item",{
     duration: 3000,
 });
 
-// For intro section
+// ! Side item
 
-ScrollReveal().reveal(".intro-left h4",{
+ScrollReveal().reveal(".btn-floating,.side-mail",{
+    duration: 2000,
+    origin: 'bottom',
+    distance: '50px'
+});
+
+// ! Intro
+
+ScrollReveal().reveal(".greet",{
     duration: 1000,
     origin: 'bottom',
     distance: '50px'
 });
-ScrollReveal().reveal(".intro-left h1",{
-    duration: 1200,
+ScrollReveal().reveal(".name,.subtitle",{
+    duration: 2000,
     origin: 'bottom',
     distance: '50px'
 });
-ScrollReveal().reveal(".subtitle",{
-    duration: 1400,
-    origin: 'bottom',
-    distance: '50px'
-});
-ScrollReveal().reveal(".intro-left p",{
-    duration: 1600,
-    origin: 'bottom',
-    distance: '50px'
-});
-ScrollReveal().reveal(".action-btn,.intro-resume-btn",{
-    duration: 1800,
+ScrollReveal().reveal(".intro-text,.intro-btn",{
+    duration: 2500,
     origin: 'bottom',
     distance: '50px'
 });
 
-// For about section
+// ! About
 
-ScrollReveal().reveal(".about .container",{
+ScrollReveal().reveal(".about-title",{
     duration: 1000,
     origin: 'bottom',
     distance: '50px'
 });
-
-// For projects section
-
-ScrollReveal().reveal(".projects h2",{
+ScrollReveal().reveal(".about-text,.about-img",{
     duration: 1000,
     origin: 'bottom',
     distance: '50px'
 });
-ScrollReveal().reveal(".one,.two,.three",{
-    duration: 1500,
+ScrollReveal().reveal(".skills",{
+    duration: 2000,
     origin: 'bottom',
-    distance: '50px'
+    distance: '60px'
 });
-ScrollReveal().reveal(".four,.five,.six",{
-    duration: 1600,
-    origin: 'bottom',
-    distance: '50px'
-});
-
-//For testimonials section
-ScrollReveal().reveal(".testimonials h3,.carousel-holder",{
-    duration: 1800,
+ScrollReveal().reveal(".skills-section",{
+    duration: 2500,
     origin: 'bottom',
     distance: '50px'
 });
 
-// For Contact us section
-ScrollReveal().reveal(".contact-holder",{
-    duration: 1800,
+// ! projects
+
+ScrollReveal().reveal(".project-title",{
+    duration: 2000,
+    origin: 'bottom',
+    distance: '50px'
+});
+ScrollReveal().reveal(".one",{
+    duration: 2200,
+    origin: 'bottom',
+    distance: '50px'
+});
+ScrollReveal().reveal(".two",{
+    duration: 2400,
+    origin: 'bottom',
+    distance: '50px'
+});
+ScrollReveal().reveal(".three",{
+    duration: 2600,
     origin: 'bottom',
     distance: '50px'
 });
 
-// For social section
-ScrollReveal().reveal(".social",{
-    duration: 1000,
+// ! Contact
+
+ScrollReveal().reveal(".contact-title",{
+    duration: 2000,
     origin: 'bottom',
     distance: '50px'
+});
+ScrollReveal().reveal(".contact-text",{
+    duration: 2500,
+    origin: 'bottom',
+    distance: '50px'
+});
+ScrollReveal().reveal("form",{
+    duration: 2800,
+    origin: 'bottom',
+    distance: '50px'
+});
+
+// ! Footer
+
+ScrollReveal().reveal(".footer-title,.holder",{
+    duration: 2000,
+    origin: 'bottom',
+    distance: '50px'
+});
+ScrollReveal().reveal(".signature",{
+    duration: 2500,
 });

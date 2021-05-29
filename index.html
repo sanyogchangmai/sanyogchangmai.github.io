@@ -5,294 +5,466 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanyog Changmai</title>
-    <meta name="title" content="Sanyog Changmai">
-    <meta name="description" content="Sanyog Changmai is a computer science and engineering undergraduate. A full stack web developer with the ability to create beautiful user interfaces.">
+
+    <!-- ! MD Bootstrap -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet"/>
+
+    <!-- ! Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- ! Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ! Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
+    <!-- ! Custom CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/side-content.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/response.css">
 
     <!-- ! Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- !Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    
-     <!--Scroll Reveal js  -->
-     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/index.css">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 <body>
 
-    <!-- Navbar -->
+    <!-- ! Navbar -->
 
-    <nav class="navbar navbar-expand-lg justify-content-sm-start fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand order-lg-0 ml-lg-0 ml-2 mr-auto" href="#">Sanyog Changmai</a>
-      <i class="material-icons navbar-toggler align-self-start" type="button">menu</i>
-      <span class="navbar-toggler-icon"></span>
-
-      <div class="collapse navbar-collapse p-3 p-lg-0 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobileMenu" id="navbarSupportedContent">
-        <ul class="navbar-nav align-self-stretch">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="blog">Blog</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>  
-          <a class="nav-resume-btn" href="https://drive.google.com/file/d/1ElLvNu5bydVGQtM5nn6vKVM_PwKYFT-L/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <button class="resume-btn">Resume</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="logo-pic">
+                <img src="assets/pic-logo.jpg" alt="">
+              </div>
+              <div class="brand-name">
+                <span class="firstname">Sanyog</span>
+                <span class="lastname">Changmai</span>
+            </div>
           </a>
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="overlay"></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-option nav-one" onclick="fun1()" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-option nav-two" onclick="fun2()" href="#about-section">About</a>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-option nav-three" onclick="fun3()" href="#projects-section">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-option nav-four" onclick="fun4()" href="#contact-section">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-option nav-five" onclick="fun5()" href="https://drive.google.com/file/d/1ElLvNu5bydVGQtM5nn6vKVM_PwKYFT-L/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-  <!-- Navbar End -->
+      <!-- ! Navbar end -->
 
+      <!-- ------------------------------------------------------------------ -->
 
-  <!-- Introduction -->
+      <!-- ! Side items -->
 
-  <section class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="col intro-left">
-          <h4>Hi, my name is</h4>
-          <h1>Sanyog Changmai.</h1>
+      <a href="#top">
+        <button type="button" class="btn btn-warning btn-floating">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+       </a>
+
+      <div class="side-mail">
+        <a href="mailto:sanyogchangmai29@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-envelope .shadow-2-strong"></i>
+        </a>
+        <a href="https://twitter.com/ChangmaiSanyog" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/sanyogchangmai" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sanyogchangmai29/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin-in"></i>
+        </a>  
+      </div>  
+
+      <!-- ! Side items end here -->
+      
+      <!-- --------------------------------------------------------------------- -->
+
+      <!-- ! Introduction -->
+
+    <section class="intro">
+
+      <div class="container">
+        <div class="row">
+          <h4 class="greet">Hi, 👋 my name is</h4>
+          <h1 class="name">Sanyog Changmai.</h1>
           <h1 class="subtitle">I am a full stack web developer.</h1>
           <br>
-          <p>
+          <p class="intro-text">
             I build things on the web and strive to
             bring an positive impact on people around me.
           </p>
+          <div class="intro-btn">
+            <a href="#contact-section"><button type="button" class="btn btn-warning btn-lg intro-yellow-btn">Get in touch</button></a>
+          <a href="https://drive.google.com/file/d/1ElLvNu5bydVGQtM5nn6vKVM_PwKYFT-L/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-dark btn-lg intro-dark-btn">Resume</button>
+          </a>
+          </div>   
         </div>
       </div>
-      <a href="#contact"><button class="action-btn">Get In Touch</button></a>
-      <a href="https://drive.google.com/file/d/1ElLvNu5bydVGQtM5nn6vKVM_PwKYFT-L/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-        <button class="intro-resume-btn">Resume</button>
-      </a>
         
-  </section>
+    </section>
 
-  <!-- Introduction ends here -->
+  <!-- ! Introduction ends here -->
+
+  <!-- -------------------------------------------------------------------------- -->
 
 
-  <!-- About Section -->
+  <!-- ! About -->
 
-  <a name="about"></a>
+  <a name="about-section"></a>
 
-  <section class="about">  
+  <section class="about">
+    <h1 class="about-title">
+      About Me &#128102
+    </h1>
+
+    <hr>
 
     <div class="container">
-      <h2 class="about-title">About Me</h2>
-      <hr>
       <div class="row">
-        <div class="col-sm about-left">
-          <p>
-            I am Sanyog Changmai. I am a computer science udergraduate
-            from India. I have been building stuffs on the web for the
-            last 6 months. My interest lies in Web Development, Flutter
-            and Blockchain. I am curious and energetic ready to learn constantly
-            and open for all opportunities.
-          </p>
-
-          <br><br>
-
-          <h3 class="skills-title">Technologies I have worked with</h3>
-          <hr>
-          <div class="skills-section">
-            <ul class="skills-list fa-ul">
-              <li><span class="badge badge-pill badge-warning">HTML 5</span></li>
-              <li><span class="badge badge-pill badge-warning">CSS 3</span></li>
-              <li><span class="badge badge-pill badge-warning">Javascript</span></li>
-              <li><span class="badge badge-pill badge-warning">Bootstrap</span></li>
-            </ul>
-
-            <ul class="skills-list fa-ul">
-              <li><span class="badge badge-pill badge-warning">Node.js</span></li>
-              <li><span class="badge badge-pill badge-warning">React.js</span></li>
-              <li><span class="badge badge-pill badge-warning">Express.js</span></li>
-              <li><span class="badge badge-pill badge-warning">Mongo DB</span></li>     
-            </ul>
-          </div>
-
+        <div class="col-md about-text">
+     
+            I am Sanyog Changmai. I am a computer science udergraduate from India.
+            I have been building stuffs on the web for the last 6 months. 
+            My interest lies in Web Development, Flutter and Blockchain. 
+            I am curious and energetic ready to learn constantly and open for 
+            all opportunities.
+      
         </div>
-        <div class="col-sm about-right"> 
-          <img src="images/san_yog.jpg" alt="sanyog.jpg" class="about-img">
+        <div class="col-md about-img">
+          <center>
+            <img src="assets/pic-logo.jpg" alt="" class="about-pic img-fluid hover-shadow">
+          </center>
         </div>
       </div>
     </div>
+
+    <h1 class="skills">
+      Technoligies I have worked with &#128187
+    </h1>
+
+    <hr>
+
+    <div class="skills-section">
+      <ul class="skills-list">
+        <li><i class="devicon-cplusplus-plain-wordmark"></i></li>
+        <li><i class="devicon-html5-plain-wordmark colored"></i></li>  
+      </ul>
+
+      <ul class="skills-list">
+        <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+        <li><i class="devicon-javascript-plain colored"></i></li>
+      </ul>
+
+      <ul class="skills-list">
+        <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+        <li><i class="devicon-nodejs-plain colored"></i></li>
+      </ul>
+
+      <ul class="skills-list"> 
+        <li><i class="devicon-react-original-wordmark colored"></i>
+        <li><i class="devicon-express-original colored"></i></li>         
+      </ul>
+
+      <ul class="skills-list">
+        <li><i class="devicon-mongodb-plain-wordmark colored"></i></li>
+      </ul>
+
+    </div>
+
+    <hr>
+
   </section>
 
-  <!-- About section ends here -->
+  <!-- ! About ends here -->
 
+  <!-- ------------------------------------------------------------------------- -->
 
-  <!-- Projects -->
+  <a name="projects-section"></a>
+  <br>
+
+  <!-- ! Projects -->
 
   <section class="projects">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h2>Somethings I've Built</h2>
-        </div>
-      </div>
-    </div>
+    <h1 class="project-title">
+      Somethings I've Built &#128512
+    </h1>
+
+    <br><br><br>
 
     <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <a class="project-name" href="https://ssbarena.github.io" target="_blank" rel="noopener noreferrer">
-            <div class="card one" style="width: 18rem;">
-              <img src="images/project1.JPG" class="card-img-top" alt="...">
+
+      <div class="row project-row">
+
+        <div class="col-md-4">
+          <div class="card one">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/helptogether.JPG" class="img-fluid"/>
               <hr>
-              <div class="card-body">
-                <h5 class="project-name">SSB Arena</h5>
-                <a class="badge badge-warning">HTML 5</a>
-                <a class="badge badge-warning">CSS 3</a>
-                <a class="badge badge-warning">JS</a>
-                <p class="card-text">A website which provides free practise sets for SSB related tasks with proper time contraint.</p>
-                <a href="https://ssbarena.github.io/" target="_blank" rel="noopener noreferrer">
-                  <button class="card-demo-btn">Demo</button>
-                </a>  
-              <a href="https://github.com/sanyogchangmai" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
-              </div>
             </div>
-          </a>
+            <div class="card-body">
+              <h5 class="card-title">HelpTogether</h5>
+              <span class="badge bg-warning text-dark">HTML 5</span>
+              <span class="badge bg-warning text-dark">CSS 3</span>
+              <span class="badge bg-warning text-dark">JS</span>
+              <span class="badge bg-warning text-dark">Node.js</span>
+              <span class="badge bg-warning text-dark">Express.js</span>
+              <span class="badge bg-warning text-dark">Mongo DB</span>
+              <br>
+              <div class="project-text">
+                A progressive web app connecting help seekers with help providers during the second wave
+                of covid-19.
+              </div>
+              <a href="https://helptogether.herokuapp.com/" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                View
+              </a>
+              <a href="https://github.com/sanyogchangmai/HelpTogether" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-code-branch"></i>
+              </a>  
+            </div>
+          </div>  
         </div>
-        <div class="col-sm">
-          <a class="project-name" href="https://cherry-custard-03367.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <div class="card three" style="width: 18rem;">
-              <img src="images/weatherapp1.JPG" class="card-img-top" alt="...">
+
+        <div class="col-md-4">
+          <div class="card two">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/blog.JPG" class="img-fluid"/>
               <hr>
-              <div class="card-body">
-                <h5 class="project-name">ForecastIt</h5>
-                <a class="badge badge-warning">HTML 5</a>
-                <a class="badge badge-warning">CSS 3</a>
-                <a class="badge badge-warning">JS</a>
-                <a class="badge badge-warning">Node.js</a>
-                <a class="badge badge-warning">Express.js</a>
-                <a class="badge badge-warning">API</a>
-                <p class="card-text">A weather app built using openweathermap api.It fetches the weather report of a city.</p>
-                <a href="https://cherry-custard-03367.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <button class="card-demo-btn">Demo</button>
-                </a>
-              <a href="https://github.com/sanyogchangmai/WeatherApp" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
-              </div>
             </div>
-          </a>
+            <div class="card-body">
+              <h5 class="card-title">Blog</h5>
+              <span class="badge bg-warning text-dark">HTML 5</span>
+              <span class="badge bg-warning text-dark">CSS 3</span>
+              <span class="badge bg-warning text-dark">JS</span>
+              <span class="badge bg-warning text-dark">Node.js</span>
+              <span class="badge bg-warning text-dark">Express.js</span>
+              <span class="badge bg-warning text-dark">Mongo DB</span>
+              <div class="project-text">
+                A content management system to maintain personal blogs uisng CRUD operations.
+              </div>
+              <!-- <a href="" class="btn btn-warning" target="_blank" rel="noopener noreferrer">View</a> -->
+              <a href="https://github.com/sanyogchangmai/Blog-Admin" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-code-branch"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-sm">
-          <!-- <a class="project-name" href="#" target="_blank" rel="noopener noreferrer"> -->
-            <div class="card two" style="width: 18rem;">
-              <img src="images/blog.JPG" class="card-img-top" alt="...">
+
+        <div class="col-md-4">
+          <div class="card three">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="assets/weatherapp1.JPG" class="img-fluid"/>
               <hr>
-              <div class="card-body">
-                <h5 class="project-name">Blog</h5>
-                <a class="badge badge-warning">HTML 5</a>
-                <a class="badge badge-warning">CSS 3</a>
-                <a class="badge badge-warning">JS</a>
-                <a class="badge badge-warning">Node.js</a>
-                <a class="badge badge-warning">Express.js</a>
-                <a class="badge badge-warning">Mongo DB</a>
-                <p class="card-text">A blog website with CRUD operation.</p>
-                <button class="card-demo-btn">Work in progress</button>
-              <a href="https://github.com/sanyogchangmai/Blog-Admin" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </a>
-              </div>
             </div>
-          <!-- </a> -->
+            <div class="card-body">
+              <h5 class="card-title">ForecasteIt</h5>
+              <span class="badge bg-warning text-dark">HTML 5</span>
+              <span class="badge bg-warning text-dark">CSS 3</span>
+              <span class="badge bg-warning text-dark">JS</span>
+              <span class="badge bg-warning text-dark">Node.js</span>
+              <span class="badge bg-warning text-dark">Express.js</span>
+              <div class="project-text">
+                A weather app built using openweathermap api.It fetches the weather report of a city.
+              </div>
+              <a href="https://cherry-custard-03367.herokuapp.com/" class="btn btn-warning" target="_blank" rel="noopener noreferrer">View</a>
+              <a href="https://github.com/sanyogchangmai/WeatherApp" class="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-code-branch"></i>
+              </a>
+            </div>
+          </div>
         </div>
-   
       </div>
+
     </div>
 
-   
   </section>
 
-  <!-- Projects section ends here -->
+  <!-- ! projects end here -->
 
-  <!-- Contact Me -->
 
-  <a name="contact"></a>
+  <hr>
+
+  <!-- -------------------------------------------------------------------------- -->
+
+  <a name="contact-section"></a>
+
+  <!-- ! Contact -->
 
   <section class="contact">
     <div class="container">
       <div class="row">
-        <div class="col-sm contact-holder">
-          <hr>
-          <h3 class="contact-title">Get In Touch</h3>
-          <br>
-          <p class="contact-text">
-            My inbox is always open, wheather its a freelance project or you want to discuss
-            something or collaborate on a project or simply want to
-            have a conversation.
-          </p>
-          <br>
-          <!-- <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSMTtdPJGGGNmVgLZfDCQSrncqgVVkfwHsWHKrkTGSHnrhNdWCCQtTWNLgVLxpMTjGNDPSfn" target="_blank" rel="noopener noreferrer"> -->
-          <a href="mailto:sanyogchangmai29@gmail.com" target="_blank" rel="noopener noreferrer">
-            <button class="contact-btn">Contact me</button>
-          </a>      
+
+          <center>
+            <h3 class="contact-title">Get In Touch</h3>
+            <p class="contact-text">
+              My inbox is always open, wheather its a freelance project or you want to discuss
+              something or collaborate on a project or simply want to
+              have a conversation.
+            </p>
+            <form method="POST" id="my-formcarry" class="msg-form" accept-charset="UTF-8">
+
+              <div class="form-outline">
+                <input type="text" id="typeText" name="firstName" class="form-control form-control-lg" required/>
+                <label class="form-label" for="typeText">First name</label>
+              </div>
+
+              <div class="form-outline">
+                <input type="text" id="typeText" name="lastName" class="form-control form-control-lg" required/>
+                <label class="form-label" for="typeText">Last Name</label>
+              </div>
+
+              <div class="form-outline">
+                <input type="email" id="typeEmail" name="email" class="form-control form-control-lg" required/>
+                <label class="form-label" for="typeEmail">Email</label>
+              </div>
+
+              <div class="form-outline">
+                <textarea class="form-control" id="textAreaExample" name="messege" rows="6" required></textarea>
+                <label class="form-label" for="textAreaExample">Message</label>
+              </div>
+              <input type="hidden" name="_gotcha">
+
+              <button type="submit" class="btn btn-warning btn-lg send-btn">Send</button>
+              
+            </form>
+
+            <div class="response res-hide">
+              <p class="response-text">
+                Messege sent succefully.
+              </p>
+                <!-- <button type="button" class="btn btn-warning btn-sm">OK</button> -->
+            </div>
+
+          </center>
           
-        </div>
+          <br>
+
       </div>
     </div>
   </section>
 
-  <!-- About section ends here -->
+  <!-- ! Contact ends here -->
+
+  <!-- ----------------------------------------------------------------------------- -->
+
+  <!-- ! After form submission -->
+
+  <!-- <center>
+    <div class="response">
+      <p class="res-confir">
+        Messege sent succefully.
+        <br>
+        Thank You
+      </p>
+        <button type="button" class="btn btn-warning btn-sm">OK</button>
+    </div>
+  </center> -->
 
 
-  <!-- Footer Section -->
+  <!-- ! After form submission -->
+
+  <!-- ----------------------------------------------------------------------------- -->
+
+  <!-- ! Footer -->
 
   <section class="footer">
+
     <div class="container social">
       <div class="row">
         <div class="col-sm social">
           <hr>
-          <h5 class="footer-title">Add me to your social</h5>
-          <div class="holder">
-            <a href="https://www.linkedin.com/in/sanyogchangmai29/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/sanyogchangmai" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/ChangmaiSanyog" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter-square"></i>
-            </a>    
-          </div> 
-        </div>
 
+          <center>
+            <h5 class="footer-title">Add me to your social</h5>
+          </center>
+          
+          <center>
+            <div class="holder">
+              <a href="https://www.linkedin.com/in/sanyogchangmai29/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/sanyogchangmai" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://twitter.com/ChangmaiSanyog" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="mailto:sanyogchangmai29@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-envelope .shadow-2-strong"></i>
+              </a>    
+            </div>
+          </center>
+           
+
+        </div>
       </div>
     </div>
-    <h6 class="signature">Designed & Developed by Sanyog Changmai</h6>
+
+    <center>
+      <h6 class="signature">Designed & Developed by Sanyog Changmai</h6>
+    </center>
+    
+
   </section>
 
-<!-- Javascript -->
-<script src="javascript/navbar.js"></script>
-<!-- Scroll reveal js -->
+  <!-- ! Footer ends here -->
+
+  <!-- ---------------------------------------------------------------------------- -->
+
+<!-- ! MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+<!-- ! Formcarry -->
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
 <script src="javascript/reveal.js"></script>
+<script src="javascript/formcarry.js"></script>
+    
 </body>
 </html>

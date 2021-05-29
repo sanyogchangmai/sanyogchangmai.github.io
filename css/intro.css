@@ -1,0 +1,94 @@
+/* !Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+/* font-family: 'Noto Sans', sans-serif; */
+
+/* .container {
+  margin: 10% 12%;
+} */
+.intro {
+  margin: 12% 12%;
+}
+.row h4 {
+  color: #ffbc02;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+}
+.name {
+  font-size: 70px;
+  color: #000000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 70px;
+  color: #00000094;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+.row p {
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  color: #000000;
+  max-width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.intro-btn {
+  display: flex;
+}
+.intro-yellow-btn {
+  margin-right: 12px;
+  width: 150px;
+}
+.intro-dark-btn {
+  width: 140px;
+}
+
+/* ! Media queries */
+
+@media (max-width: 400px) {
+  .intro {
+    margin: 15% 5% 22%;
+  }
+  .row h4 {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .row p {
+    font-size: 18px;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 710px) {
+  .name {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 50px;
+  }
+  .row p {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 1000px) {
+  .name {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 60px;
+  }
+  .row p {
+    max-width: 60%;
+  }
+}

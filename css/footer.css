@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+/* font-family: 'Noto Sans', sans-serif; */
+
+.footer {
+  font-family: "Noto Sans", sans-serif;
+  position: relative;
+  margin: 0;
+  bottom: 0;
+}
+
+.footer-title {
+  color: #000000;
+}
+.holder i {
+  background-color: #ffffff;
+  font-size: 25px;
+  margin: 10px 10px 20px;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px,
+    rgb(218, 220, 224) 0px -1px 0px 0px inset;
+}
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+.fa-linkedin-in:hover {
+  font-size: 23px;
+  transition: ease 0.2s;
+}
+.fa-github {
+  color: #6e5494;
+}
+.fa-github:hover {
+  font-size: 23px;
+  transition: ease 0.2s;
+}
+.fa-twitter {
+  color: #00acee;
+}
+.fa-twitter:hover {
+  font-size: 23px;
+  transition: ease 0.2s;
+}
+.fa-envelope {
+  color: #0072c6;
+}
+
+.signature {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.footer {
+  width: 100%;
+}
