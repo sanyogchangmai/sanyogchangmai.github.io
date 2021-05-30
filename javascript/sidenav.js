@@ -1,7 +1,7 @@
 // $("i").removeClass(".side-nav-hide");
 $(document).ready(function(){
 
-    $("i").click(function(){
+    $(".hemburg").click(function(){
         $(".side-nav").toggleClass("side-nav-hide");
         $(".overlay").toggleClass("overlay-hide");
 
