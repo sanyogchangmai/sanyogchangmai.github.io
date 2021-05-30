@@ -39,6 +39,7 @@
 }
 .intro-btn {
   display: flex;
+  flex-wrap: wrap;
 }
 .intro-yellow-btn {
   margin-right: 12px;
@@ -50,9 +51,20 @@
 
 /* ! Media queries */
 
+@media (max-width: 349px) {
+  .intro-yellow-btn {
+    width: auto;
+    font-size: 12px;
+  }
+  .intro-dark-btn {
+    width: auto;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 400px) {
   .intro {
-    margin: 15% 5% 22%;
+    margin: 18% 5% 25%;
   }
   .row h4 {
     font-size: 20px;

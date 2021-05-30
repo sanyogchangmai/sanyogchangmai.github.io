@@ -1,10 +1,7 @@
 // ! Navbar
 
-ScrollReveal().reveal(".navbar-brand",{
-    duration: 2000,
-});
-ScrollReveal().reveal(".nav-item",{
-    duration: 3000,
+ScrollReveal().reveal("nav",{
+    duration: 1000,
 });
 
 // ! Side item
