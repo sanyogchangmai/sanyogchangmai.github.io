@@ -37,13 +37,8 @@
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-.side-link {
   font-weight: bold;
   color: #000000;
-}
-.side-link:hover {
-  color: #ffffff;
 }
 .overlay {
   position: fixed;

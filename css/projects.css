@@ -49,6 +49,9 @@
 /* ! Media queries */
 
 @media (max-width: 400px) {
+  .projects {
+    margin-bottom: 20%;
+  }
   .card {
     margin: 5% 5%;
   }

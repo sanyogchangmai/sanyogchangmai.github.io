@@ -19,6 +19,7 @@ hr {
   margin-top: 60px;
 }
 .about-text {
+  text-align: justify;
   margin-left: 5%;
   font-size: 20px;
   max-width: 40%;
@@ -63,6 +64,7 @@ hr {
 
 @media (max-width: 400px) {
   .about-text {
+    text-align: center;
     font-size: 18px;
     max-width: 92%;
     margin-right: 4%;
