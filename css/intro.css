@@ -39,7 +39,6 @@
 }
 .intro-btn {
   display: flex;
-  flex-wrap: wrap;
 }
 .intro-yellow-btn {
   margin-right: 12px;

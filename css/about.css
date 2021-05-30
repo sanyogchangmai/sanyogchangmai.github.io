@@ -88,6 +88,19 @@ hr {
   }
 }
 
+@media (max-width: 372px) {
+  .skills-section {
+    margin: auto 12px;
+  }
+  .skills-part li {
+    padding: 5px;
+    margin-left: 25px;
+  }
+  .skills-part li i {
+    font-size: 50px;
+  }
+}
+
 @media (max-width: 718px) {
   .skills {
     text-align: center;
