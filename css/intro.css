@@ -10,7 +10,7 @@
   margin: 10% 12%;
 } */
 .intro {
-  margin: 12% 12%;
+  margin: 10% 12%;
 }
 .row h4 {
   color: #ffbc02;
@@ -63,7 +63,7 @@
 
 @media (max-width: 400px) {
   .intro {
-    margin: 18% 5% 25%;
+    margin: 22% 5% 25%;
   }
   .row h4 {
     font-size: 20px;
