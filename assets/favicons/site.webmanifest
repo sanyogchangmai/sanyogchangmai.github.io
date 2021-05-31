@@ -3,8 +3,8 @@
     "short_name": "Sanyog Changmai",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "##ffbc02",
+    "background_color": "#ffbc02",
+    "theme_color": "#ffbc02",
     "orientation": "portrait-primary",
     "icons": [
             {
