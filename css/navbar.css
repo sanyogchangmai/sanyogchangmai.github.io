@@ -13,7 +13,7 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: #f4f9f9;
+  background-color: #ffbc02;
 }
 .navbar-brand {
   font-size: 18px;
@@ -38,9 +38,6 @@ body {
   font-size: 18px;
   margin-right: 25px;
   color: #000000;
-}
-.nav-option:hover {
-  color: #ffbc02;
 }
 
 /* ! Media queries */

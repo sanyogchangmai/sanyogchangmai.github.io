@@ -5,6 +5,7 @@
   font-family: "Noto Sans", sans-serif;
   margin-bottom: 10%;
 }
+
 .project-row {
   display: flex;
   flex-wrap: wrap;
@@ -32,18 +33,8 @@
   font-size: 20px;
   margin: 0;
 }
-
-.one:hover {
-  margin-top: -20px;
-  transition: ease 0.5s;
-}
-.two:hover {
-  margin-top: -20px;
-  transition: ease 0.5s;
-}
-.three:hover {
-  margin-top: -20px;
-  transition: ease 0.5s;
+.three {
+  margin-bottom: 20px;
 }
 
 /* ! Media queries */
@@ -53,37 +44,13 @@
     margin-bottom: 20%;
   }
   .card {
-    margin: 5% 5%;
-  }
-  .one:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
-  }
-  .two:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
-  }
-  .three:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
+    margin: 5% 1%;
   }
 }
 
 @media (min-width: 400px) and (max-width: 770px) {
   .card {
     margin: 5% 10%;
-  }
-  .one:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
-  }
-  .two:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
-  }
-  .three:hover {
-    margin-top: -8px;
-    transition: ease 0.5s;
   }
 }
 
